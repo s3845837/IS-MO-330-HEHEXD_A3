@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #401d35;
+}
+
+li.a {
+    display: inline-block;
+}
+
+article {
+    margin: 5% 15% 0%;
+}
+
+footer {
+    font-size: 10pt;
+    padding: 2pt;
+    color: #b1b1b1;
+    background-color: #333333;
+}
+
+ul.a {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d35a95;
+    box-shadow: 0pt 6pt 14pt 0pt rgba(0, 0, 0, 0.2);
+}
+
+li a {
+    font-weight: bold;
+    display: block;
+    color: #ffffffad;
+    text-align: center;
+    padding: 10pt 14pt;
+    text-decoration: none;
+}
+
+.navigation:hover {
+    background-color: #b64e80;
+    box-shadow: 0pt 6pt 14pt 0pt rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.active {
+    color: #ffffff;
+}
+
+.content,
+.figure {
+    color: #3d00ee;
+    font-weight: normal;
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    width: 25%;
+}
+
+td,
+th {
+    border: 1pt solid #838383;
+}
+
+th {
+    text-align: center;
+    padding: 15pt;
+    background-color: #f1cadd;
+}
+
+td {
+    padding: 15pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+figcaption {
+    font-size: 10pt;
+}
+
+.imagec {
+    text-align: center;
+    padding: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+img {
+    border-radius: 8pt;
+}
+
+#article {
+    position: relative;
+    animation-name: article;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/* animation */
+
+@keyframes article {
+    0% {
+        left: -1000pt;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+@media screen and (max-width: 630pt) {
+    li.a {
+        display: block;
+    }
+    ul.a {
+        text-align: left;
+    }
+    li a {
+        text-align: left;
+    }
+    #logoimg {
+        width: 250pt;
+    }
+}
+
+.colour1 {
+    color: #d35a95;
+}
+
+.examplecolour {
+    color: #ff0000;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
